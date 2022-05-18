@@ -1,0 +1,390 @@
+@media screen and (max-width:1600px)
+{
+}
+@media screen and (max-width:1440px)
+{
+.container
+{
+	max-width:1300px;
+}
+.header .container
+{
+	max-width:100%;
+}
+.collection-main {
+    padding: 0 50px;
+}
+}
+@media screen and (max-width:1366px)
+{
+.banner-txt h1 {
+    font-size: 50px;
+}
+.banner-txt h6 {
+    font-size: 18px;
+}
+.title h1 {
+    font-size: 50px;
+}
+}
+@media screen and (max-width:1280px)
+{
+.social ul li {
+    margin-left: 2px;
+}
+a.h-btn {
+    margin: 0 6px 0 0;
+}
+.navigation ul li {
+    margin-right: 15px;
+}
+}
+@media screen and (max-width:1199px)
+{
+	.navigation.opacity{
+  opacity:1 !important ;
+}
+.navigation
+{
+   position: fixed;
+   right: 0;
+   background: #2c0b3f;
+   top: 0px;
+   padding-left: 0;
+   padding-right: 0;
+   width: 100%;
+   box-sizing: border-box;
+   opacity: 0;
+   pointer-events: none;
+   height: 100%;
+	margin-top:0;
+	padding-top:70px;
+	z-index:999;
+}
+.navigation.menu_show
+{
+opacity:1;
+pointer-events:inherit;
+}
+.mobile-menu {
+    float: right;
+    background: transparent;
+    padding: 0px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 40px;
+    width: 40px;
+    border: solid 2px #fff;
+    align-content: center;
+    cursor: pointer;
+    position: relative;
+    z-index: 9999;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 7px 0 0 7px;
+}
+.bar1, .bar2, .bar3
+{
+height: 3px;
+background-color: #fff;
+margin: 2px 0;
+transition: 0.4s;
+width:85%;
+display:block;
+}
+.mobile-menu.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-5px, 4px);
+    transform: rotate(-45deg) translate(-5px, 4px);
+    background-color: #fff;
+}
+.mobile-menu.change .bar2
+{
+opacity: 0;
+}
+.mobile-menu.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-5px, -5px);
+    transform: rotate(45deg) translate(-5px, -5px);
+    background-color: #fff;
+}
+.navigation ul li
+{
+   float: none;
+   margin: 0px;
+   padding: 10px 15px;
+   text-align: center;
+   display: block;
+}
+.navigation ul li a
+{
+   display: block;
+   color: #ffff;
+   text-shadow: none;
+   font-size: 18px;
+padding:0;
+}
+.banner-txt h1 {
+    font-size: 45px;
+}
+.banner-txt {
+    padding: 30px;
+}
+.collection-kid-main {
+    margin: 10px 10px;
+}
+.collection-sec {
+    padding: 50px 0;
+}
+.about-sec {
+    padding: 50px 0;
+}
+.faqs-sec {
+    padding: 50px 0;
+}
+.cd-timeline-content {
+    width: 40%;
+}
+.road-map-sec {
+    padding: 50px 0;
+}
+}
+@media screen and (max-width:991px)
+{
+a.h-btn span {
+    display: none;
+}
+a.h-btn {
+    margin: 5px 6px 0 0;
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    border: solid 2px #fff;
+    padding: 0;
+    line-height: 40px;
+}
+.social {
+    display: none;
+}
+.banner-txt h1 {
+    font-size: 40px;
+}
+.title h1 {
+    font-size: 40px;
+}
+.banner-txt h6 {
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+.order-last {
+    order: 0;
+	-webkit-box-ordinal-group: 0;
+}
+.about-txt-icon{
+	display:none;
+}
+.ab-info {
+    padding: 0 !important;
+    margin-top: 20px;
+    display: block;
+    height: auto;
+}
+.mtp-sixty {
+    margin-top: 30px;
+}
+.ab-img img {
+    width: 100%;
+    height: auto;
+}
+.faqs-sec {
+    padding: 50px 0 30px;
+}
+}
+@media screen and (max-width:767px)
+{
+.banner-txt h1 {
+    font-size: 32px;
+}
+.footer {
+    background: #5b0781;
+    padding: 30px 0;
+    margin: 0;
+}
+}
+@media screen and (max-width:667px)
+{
+a.logo {
+    float: left;
+    width: 180px;
+    padding: 13px 0;
+}
+.header {
+    background: #2c0b3f;
+}
+.ab-info h2 {
+    font-size: 24px;
+}
+.ab-info p {
+    font-size: 16px;
+    line-height: 24px;
+}
+.faqs-main .card .card-body p {
+    font-size: 14px;
+    line-height: 24px;
+}
+.title h1 {
+    font-size: 30px;
+}
+.title {
+    margin-bottom: 20px;
+}
+.faqs-main .card-header .btn-link {
+    display: block;
+    font-weight: 600!important;
+    white-space: inherit;
+    padding: 15px 50px 15px 15px;
+    font-size: 16px;
+}
+.cd-timeline-content h2 {
+    font-size: 24px;
+}
+.cd-timeline-content p {
+    font-size: 16px;
+}
+.cd-timeline-content {
+    width: 38%;
+}
+}
+@media screen and (max-width:480px)
+{
+.min-qty-main {
+    width: 230px;
+}
+.control {
+    width: 230px;
+    height: 50px;
+}
+.control .input {
+    color: #fff;
+    font-size: 16px;
+    width: 130px;
+}
+a.mint-now-btn {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000000;
+    letter-spacing: 0.5px;
+    width: 230px;
+    padding: 14px 0;
+    line-height: 26px;
+    margin-left: 0;
+    margin-top: 16px;
+}
+.banner-txt {
+    padding: 25px 15px;
+}
+a.h-btn {
+    margin: 5px 2px 0 0;
+}
+a.logo {
+    float: left;
+    width: 160px;
+    padding: 13px 0;
+}
+#cd-timeline::before {
+    left: 50px;
+    margin-left: 0;
+}
+.tp-circle {
+    top: -2px;
+    left: 37px;
+    margin: 0;
+}
+.btm-circle {
+    top: auto;
+    bottom: -2px;
+    left: 37px;
+    margin: 0;
+}
+.cd-timeline-block {
+    margin: 40px 0;
+    height: auto;
+}
+.cd-timeline-img {
+    width: 90px;
+    height: 90px;
+    left: 8px;
+    margin-left: 0;
+    -webkit-transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cd-timeline-img img {
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    object-fit: contain;
+}
+.cd-timeline-content {
+    width: 100%;
+    float: left !important;
+    text-align: left !important;
+    padding-left: 117px;
+    padding-top: 0;
+}
+.cd-timeline-block:nth-child(odd) .cd-timeline-content {
+    text-align: left !important;
+	float: left !important;
+}
+.cd-timeline-block:nth-child(even) .cd-timeline-content {
+    text-align: left !important;
+	float: left !important;
+}
+.cd-timeline-content p {
+    font-size: 14px;
+    line-height: 22px;
+}
+.cd-timeline-content h2 {
+    font-size: 22px;
+}
+}
+@media screen and (max-width:380px)
+{
+.banner-txt {
+    margin-top: 50px;
+}
+}
+@media screen and (max-width:340px)
+{
+a.logo {
+    float: left;
+    width: 129px;
+    padding: 13px 0;
+}
+.banner-txt h6 {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 7px;
+}
+.banner-txt p {
+    font-size: 14px;
+    margin: 0 0 0;
+    padding: 0;
+}
+.min-qty-main {
+    margin: 15px auto;
+    display: table;
+}
+.banner-txt h1 {
+    font-size: 29px;
+}
+.banner-txt {
+    padding: 20px 15px;
+    margin-top: 60px;
+}
+}
